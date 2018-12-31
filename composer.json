@@ -1,0 +1,22 @@
+{
+  "name": "olive-cms/installed-packages",
+  "description": "get installed composer packages",
+  "type": "library",
+  "keywords": ["installed", "composer", "packages"],
+  "require": {
+    "php": ">=5.5",
+    "olive-cms/tools": "^1.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Olive\\Tools\\": "src/"
+    }
+  },
+  "license": "MIT",
+  "authors": [{
+    "name": "Mehdi HosseinZade",
+    "email": "arshen@outlook.com",
+    "homepage": "https://arshen.ir",
+    "role": "Developer"
+  }]
+}
